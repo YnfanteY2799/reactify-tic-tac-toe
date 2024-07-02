@@ -1,3 +1,5 @@
+import { Router } from "wouter";
+
 export default function App() {
-  return <div>Some weird app from </div>;
+  return <Router children={undefined} />;
 }
